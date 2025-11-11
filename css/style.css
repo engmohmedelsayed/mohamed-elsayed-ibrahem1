@@ -48,7 +48,7 @@ a:hover{
     text-transform: capitalize;
 }
 p{
-    padding: 20px;
+    /*padding: 20px;*/
 }
 b{
     color: orangered;
@@ -56,7 +56,7 @@ b{
 button{
     border: 2px solid;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: blue;
     transition: 1s;
     margin: 10px;
@@ -95,6 +95,16 @@ h6{
     position: absolute;
    
     bottom: 15%;
+}
+.two{
+    background-color: antiquewhite;
+}
+@media (min-width:440px) and (max-width:800px) {
+    section{
+        display: flex;
+       flex-wrap: wrap;
+    }
+    
 }
 
 
